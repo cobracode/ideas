@@ -1,7 +1,8 @@
 # Ideas
 
 ## Phone
-SMS logging
+SMS logging and speaking
+ * read aloud: `Ned says 'I am a developer'`
  * incoming
  * outgoing
 

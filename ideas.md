@@ -19,3 +19,19 @@
 
 ## Science Of Spirituality website
 todo
+
+## Tools
+
+### Continuous integration
+ * [Jenkins][jenkins-url]
+
+### Testing
+ * [JaCoCo][jacoco-url]
+
+### IDE
+ * [IntelliJ][intellij-url] 
+ 
+ 
+ [jenkins-url]: https://jenkins.io
+ [jacoco-url]: http://www.jacoco.org/
+ [intellij-url]: http://www.jetbrains.com/idea/

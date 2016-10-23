@@ -1,0 +1,20 @@
+{
+  "configurations": [{
+    "name": "linux",
+    "files": [{
+      "name": "hosts",
+      "location": "/etc"
+    }],
+    "mounts": [{
+      "name": "RAM",
+      "location": "~",
+      "options": "-type tmpfs -noatime"
+    }]
+  }, {
+    "name": "windows",
+    "files": [{
+      "name": "hosts",
+      "location": "c:/windows/system32/drivers/etc"
+    }]
+  }]
+}

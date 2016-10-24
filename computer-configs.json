@@ -3,18 +3,21 @@
     "name": "linux",
     "files": [{
       "name": "hosts",
-      "location": "/etc"
+      "path": "/etc"
+    }, {
+      "name": "ned_startup",
+      "path": "/etc/init.d"
     }],
     "mounts": [{
       "name": "RAM",
-      "location": "~",
+      "path": "~",
       "options": "-type tmpfs -noatime"
     }]
   }, {
     "name": "windows",
     "files": [{
       "name": "hosts",
-      "location": "c:/windows/system32/drivers/etc"
+      "path": "c:/windows/system32/drivers/etc"
     }]
   }]
 }
